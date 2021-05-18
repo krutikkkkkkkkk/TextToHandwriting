@@ -5,10 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Text To Handwriting : Reboot13</title>
+
+    <script src="app.js" defer></script>
 </head>
 <body>
-    <textarea name="" id="" cols="70" rows="40" spellcheck="false"></textarea>
+    <select name="" id="HandWriting" onchange="handwriting()">
+       <option value="">Select Handwriting</option>
+        <option value="SIL" >Shadows Into Light</option>
+        <option value="HMA" >Homemade Apple</option>
+    </select>
+    <textarea name="" id="page" cols="70" rows="40" spellcheck="false"></textarea>
     
 </body>
 </html>

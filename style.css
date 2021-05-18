@@ -1,16 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
 
 body{
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 textarea {
     background-image: url("https://i.ibb.co/PFBPNSf/Page.png");
     padding-top: 77px;
     padding-left: 94px;
     line-height: 23px;
-    font-family: "Shadows Into Light";
     text-decoration: none;
-    font-weight: 650;
+    letter-spacing: 1px;
+    font-weight: 600;
+    width:500px;
+    height: 600px;
+}
+select {
+    margin-bottom: 20px;
 }
