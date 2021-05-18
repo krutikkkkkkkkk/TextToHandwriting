@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+body{
+    display: flex;
+    justify-content: center;
+}
+textarea {
+    background-image: url("https://i.ibb.co/PFBPNSf/Page.png");
+    padding-top: 77px;
+    padding-left: 94px;
+    line-height: 23px;
+    font-family: "Shadows Into Light";
+    text-decoration: none;
+    font-weight: 650;
+}
